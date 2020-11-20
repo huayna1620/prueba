@@ -1,0 +1,638 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?balfyr');
+  src:  url('../fonts/icomoon.eot?balfyr#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?balfyr') format('truetype'),
+    url('../fonts/icomoon.woff?balfyr') format('woff'),
+    url('../fonts/icomoon.svg?balfyr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0 0;
+  /* padding-top: 70px;*/
+} 
+.video{
+  width: 100%;
+  height: 100%;
+  /* position: fixed;
+  bottom:0;
+  right: 0; */
+
+}
+.div-hero {
+  background-color: white;
+}
+.study{
+  padding: 5px;
+}
+.header {
+  margin: 0;
+  background-color:paleturquoise;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  /* position: fixed; */
+}
+
+.header ol {
+  margin: 0;
+  height: inherit;
+}
+
+.menu {
+  height: inherit;
+}
+
+.menu li {
+  height: inherit;
+}
+
+.hero-title {
+  margin: 0;
+  font-size: 70px;
+}
+
+.curso-div {
+  width: 50%;
+}
+
+.curso{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  padding: 25px;
+  box-shadow: 10px 5px 5px gray;
+  margin: 0 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: gainsboro;
+}
+.curso-imgContainer {
+  /* el 50% del padre */
+  width: 50%;
+}
+.curso-img{
+/* el 100% del contenedor figure */
+ width: 100%;
+}
+
+/* .hero{
+  border-width: medium;
+  border-style: dotted;
+  border-color: gray;
+  border-radius: 20px;
+} */
+.hero {
+  font-size: 55px;
+  letter-spacing: 1px;
+  /* background-image: url(../images/hero.jpg); */
+  /* background-size: 555px 550px;
+  background-repeat: no-repeat; */
+  /* background-position: right; */
+  background-color: lightskyblue;
+  /* border: 2px solid black;
+  border-radius: 10px; */
+  /* margin-bottom: 20px; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero-title {
+  width: 50%;
+  height: 550px;
+}
+
+.hero strong {
+  color: rebeccapurple;
+}
+
+.study-title { 
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family:"Merriweather";
+  color: rebeccapurple;
+}
+figure{
+  margin: 0;
+}
+.menu ol {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.logo {
+  margin: 0;
+  
+}
+
+.link {
+  height: inherit;
+  padding: 0 10px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.footer{
+  background-color:gray;
+  height: 70px;
+  color: black;
+  font-weight: 800;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid black;
+  flex-wrap: wrap;
+}
+.footer img{
+  vertical-align: middle;
+}
+.footer span{
+  height: 20px;
+}
+.curso-title{
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.curso-school,.curso-date,.curso-url,.curso-description{
+  margin: 10px;
+}
+.curso-description{
+  font-size: 18px;
+}
+.experience-title{
+  margin: 10px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  font-family:"Roboto";
+  color:black;
+}
+.experience{
+  padding: 5px;
+  padding-bottom: 20px;
+}
+.work-title{
+  font-size: 30px;
+  color: black;
+}
+.div-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5px;
+  padding-bottom: 20px;
+}
+.work{
+  width: 48%;
+  margin: 1%;
+  flex-shrink: 0;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: aqua;
+  margin-bottom: 25px;
+}
+.work-div{
+  background-color: white;
+  margin: 20px 25px;
+  margin-top: -40px;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  width: auto;
+  color: grey;
+  padding-bottom: 30px;
+}
+.work-description{
+  text-align: left;
+  padding-bottom: 10px;
+}
+.work-url{
+  text-decoration: none;
+  color:cornflowerblue;
+  border: 1.5px solid;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.work-imgContainer{
+  margin: 0;
+}
+.work-img{
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+.contact{
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  background-color: cornflowerblue;
+  border-top: 2px solid black;
+  padding: 20px 0;
+  flex-wrap: wrap;
+}
+.form-email{
+  margin-left: 20px;
+}
+.form-email label{
+  margin-bottom: 10px;
+  font-size: 35px;
+  color: aliceblue;
+}
+.form-email input{
+  border-color: black;
+  border-style: solid;
+  padding: 10px 30px 5px 35px;
+  margin-top: 10px;
+  background-image: url(../images/email.png);
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+.form-email button{
+  display: block;
+  cursor: pointer;
+  padding: 5px 20px;
+  background-color: transparent;
+  border-radius: 10px;
+  width: 100px;
+  margin: 10px 60px;
+}
+.redes{
+display: flex;
+flex-wrap: wrap;
+} 
+.redes-link{
+  display: inline-block;
+  width: 80px;
+  height: 70px;
+  margin: 0 15px;
+  background-size: 80px 70px;
+  
+}
+.fb{
+  background-image: url(../images/facebook.png);
+  
+}
+.tw{
+  background-image: url(../images/twiter.png);
+  
+} 
+.im{
+  background-image: url(../images/instragram.png);
+  
+}  
+.container{
+  max-width: 1024px;
+  flex:1 ;
+  margin:0 auto;
+  height: inherit;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  flex-wrap: inherit;
+}
+.hero-imgContainer{
+  margin: 0;
+  height: 550px;
+  width: 50%;
+}
+.hero-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.contenedor-mapa{
+ width: 100%;
+ height: 0;
+ padding: 30%;
+background-color: aqua;
+position: relative;
+}
+.mapa{
+ position: absolute;
+ left: 0;
+ top: 0;
+ bottom: 0;
+ right: 0;
+ width: 100%;
+ height: 100%;
+}
+.menu-burger{
+  display: none;
+  width: 2.8em;
+  height: 2.9em;
+  background-color:rgba(0,0,0, 0.7);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index:4;
+  top: 0.25em;
+  left: 0.55em;
+  font-size: 1.1em;
+}
+@media screen and (max-width:1023px){
+  .hero-title{
+    font-size: 1.1em;
+    height: auto;
+  }
+
+  .hero-img{
+    /* usamos el 100% de lo heredado */
+    height: 100%;
+  }
+  .hero-imgContainer{
+    /* heredamos la altura del padre */
+    height: inherit;
+  }
+}
+@media screen and (max-width:767px){
+ 
+  .menu-burger{
+    display: flex;
+  }
+  body{
+    font-size: 18px;
+  }
+  .menu a{
+    font-size: 60px;
+    margin: 1.8em 1em 1.5em;
+    color: white;
+    text-decoration: underline;
+  }
+  .menu{
+    position: fixed;
+    width: 100%;
+    /* height: 100vh; */
+    top:0;
+    left: -100vh;
+    bottom: 0;
+    z-index: 3;
+    background-color:rgba(0, 255, 255,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+  }
+  .menu.is-active{
+    left: 0;
+  }
+  .header{
+    display: block;
+    height: auto;
+  }
+  .header ol{
+    display: block;
+  }
+  .header ol li{
+  height: 45px;
+  }
+  .header a{
+    justify-content: center;
+  }
+  .header .logo{
+    /* como el figure tiene display bloque se usa el textalign */
+   text-align: center;
+  }
+  .curso{
+    display: block;
+  }
+  .curso-div{
+    width: auto;
+  }
+  .curso-imgContainer{
+    width: auto;
+    text-align: center;
+  }
+   .curso-title{
+    font-size: 1.5em;
+   }
+   .curso-school{
+    font-size: 1.1em;
+   }
+   .curso-date{
+    font-size: 1em;
+   }
+   .curso-url{
+    font-size: 1em;
+   }
+   .curso-description{
+    font-size: 0.9em;
+   }
+   .curso-school,.curso-date,.curso-url,.curso-description{
+     margin: 0.4em 0;
+   }
+   .curso-title{
+     margin-bottom: 0.5em;
+   }
+    .experience .container{
+      display: block;
+    }
+   .work{
+     width: auto;
+     flex-shrink: 0;
+   }
+   .work img{
+     width: 100%;
+   }
+   .contact{
+    height: auto;
+    display:block;
+    text-align: center;
+    padding: 1.5em 0;
+  }
+  .redes{
+    justify-content: center;
+  }
+  .form-email button{
+    margin: 1em auto;
+  }
+  .redes-link{
+    width: 65px;
+    height: 60px;
+    background-size: 65px 60px;
+  }
+  .footer{
+    display: block;
+    text-align: center;
+    height: auto;
+    border: 1px solid transparent;
+  }
+  h1{
+    font-size: 1em;
+  }
+  .hero{
+    height: auto;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-imgContainer{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: inherit;
+  }
+  .hero-title{
+    z-index: 2;
+    width: 100%;
+    font-size: 1.2em;
+    height: inherit;
+  }
+}
+@media screen and (max-width:480px){
+  .curso-div{
+    font-size: 12px;
+  }
+  .menu a{
+    font-size: 33px;
+    margin: 1.5em 0.3em 1.5em;
+  }
+  .curso{
+    padding: 15px;
+  }
+  .work-div{
+    margin: -2.3em 0.8em 1.3em;
+    padding: 1.5em;
+  }
+
+  .hero-title{
+    font-size: 1.1em;
+  }
+  .work-title{
+    font-size: 1.2em;
+    margin: 0px 5px 10px;
+  }
+  .work-description{
+    font-size: 0.9em;
+    margin: 0px 5px 10px;
+  }
+  .work-img{
+    height: 12em;
+  }
+  .work-url{
+    font-size: 0.8em;
+  }
+  .experience-title{
+    font-size: 1.7em;
+    margin: 0 0 0.5em;
+  }
+  .study-title{
+    display: block;
+    text-align: center;
+    font-size: 1.7em;
+  }
+
+}
+@media screen and (max-width:320px){
+ 
+  .menu{
+    width: 100%;
+  }
+  .menu a{
+    font-size: 25.5px;
+    margin: 1.3em 1em 1.5em;
+  }
+  body{
+    font-size: 13px;
+  }
+  .study-title{
+    font-size: 1.3em;
+  }
+  .experience{
+    display: block;
+  }
+  .experience-title{
+    font-size: 1.3em;
+    margin: 0 0 0.4em;
+  }
+  
+  .work{
+    margin: 1.5%;
+    margin-bottom: 8%;
+  }
+  .work-title{
+    font-size: 1em;
+    margin: 0px 5px 10px;
+  }
+  .work-description{
+    font-size: 0.7em;
+    margin: 0px 5px 8px;
+  }
+  .work-img{
+    height: 9em;
+  }
+  .work-url{
+    font-size: 0.7em;
+  }
+
+  .redes-link{
+    width: 50px;
+    height: 35px;
+    background-size: 50px 35px;
+  }
+  .hero-title{
+    font-size: 0.7em;
+  }
+ 
+}
+
+
+

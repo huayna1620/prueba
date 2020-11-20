@@ -175,6 +175,7 @@
     const menuBurger=document.querySelector('.menu-burger');
     const sizeIpad=window.matchMedia('screen and (max-width:767px)');
     sizeIpad.addListener(validation)
+    menuBurge.addEventListener('click', hideShow);
     function validation(event){
       if(event.matches){
       menuBurger.addEventListener('click',mostrarOcultar);
